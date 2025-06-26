@@ -6,7 +6,7 @@ A beautiful and simple **React Weather Forecast App** that shows the current wea
 
 ## 🚀 Live Demo
 
-👉 [Click here to view the live demo](https://your-username.github.io/weather-app/)
+👉 [Click here to view the live demo](https://aymaq-code.github.io/weather-app/)
 
 ---
 
