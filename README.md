@@ -2,7 +2,7 @@
 
 A beautiful and simple **React Weather Forecast App** that shows the current weather, upcoming 4-day forecast, UV index, humidity, wind, sunrise/sunset, and more — all with dynamic weather icons and images.
 
-![Screenshot](public/assets/images/weather-app.png)
+![Screenshot](/assets/images/weather-app.png)
 
 ## 🚀 Live Demo
 
