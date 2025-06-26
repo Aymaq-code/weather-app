@@ -4,21 +4,21 @@ const getWeatherIcon = (condition) => {
   const lowerCondition = condition.toLowerCase();
 
   if (lowerCondition.includes("sun") || lowerCondition.includes("clear")) {
-    return "/assets/icons/sun.png";
+    return process.env.PUBLIC_URL + "/assets/icons/sun.png";
   } else if (lowerCondition.includes("cloud")) {
-    return "/assets/icons/cloudy.png";
+    return process.env.PUBLIC_URL + "/assets/icons/cloudy.png";
   } else if (lowerCondition.includes("overcast")) {
-    return "/assets/icons/overCast.png";
+    return process.env.PUBLIC_URL + "/assets/icons/overCast.png";
   } else if (lowerCondition.includes("rain")) {
-    return "/assets/icons/rain.png";
+    return process.env.PUBLIC_URL + "/assets/icons/rain.png";
   } else if (lowerCondition.includes("snow")) {
-    return "/assets/icons/snow.png";
+    return process.env.PUBLIC_URL + "/assets/icons/snow.png";
   } else if (lowerCondition.includes("mist")) {
-    return "/assets/icons/mist.png";
+    return process.env.PUBLIC_URL + "/assets/icons/mist.png";
   } else if (lowerCondition.includes("fog")) {
-    return "/assets/icons/fog.png";
+    return process.env.PUBLIC_URL + "/assets/icons/fog.png";
   } else {
-    return "/assets/icons/default.png"; // fallback icon
+    return process.env.PUBLIC_URL + "/assets/icons/default.png";
   }
 };
 
@@ -26,22 +26,22 @@ const getLeftImage = (condition) => {
   const lowerCondition = condition.toLowerCase();
 
   if (lowerCondition.includes("sun") || lowerCondition.includes("clear")) {
-    return "/assets/images/sunny-left.jpg";
+    return process.env.PUBLIC_URL + "/assets/images/sunny-left.jpg";
   } else if (lowerCondition.includes("cloud")) {
-    return "/assets/images/cloudy-left.jpg";
+    return process.env.PUBLIC_URL + "/assets/images/cloudy-left.jpg";
   } else if (lowerCondition.includes("overcast")) {
-    return "/assets/images/overcast-left.jpg";
+    return process.env.PUBLIC_URL + "/assets/images/overcast-left.jpg";
   } else if (lowerCondition.includes("rain")) {
-    return "/assets/images/rainy-left.jpg";
+    return process.env.PUBLIC_URL + "/assets/images/rainy-left.jpg";
   } else if (lowerCondition.includes("snow")) {
-    return "/assets/images/snowy-left.jpg";
+    return process.env.PUBLIC_URL + "/assets/images/snowy-left.jpg";
   } else if (
     lowerCondition.includes("mist") ||
     lowerCondition.includes("fog")
   ) {
-    return "/assets/images/mist-left.jpg";
+    return process.env.PUBLIC_URL + "/assets/images/mist-left.jpg";
   } else {
-    return "/assets/images/default.jpg";
+    return process.env.PUBLIC_URL + "/assets/images/default.jpg";
   }
 };
 
